@@ -5,7 +5,7 @@ interface Page {
   status: "open" | "close";
   details?: {
     createAt: Date;
-    updateAt: unknown;
+    updateAt: Date;
   };
 }
 
